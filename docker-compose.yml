@@ -1,0 +1,12 @@
+version: '3.7'
+services:
+    robot_app:
+        container_name: robot_jenkins
+        privileged: true
+        build:
+            context: .
+        ports:
+            - 8080:8080
+              #volumes:
+              #- ./jenkins_config:/etc/rc.d/init.d/jenkins
+
