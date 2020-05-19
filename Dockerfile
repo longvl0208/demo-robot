@@ -17,7 +17,6 @@ RUN yum -y install jenkins
 # RUN systemctl enable jenkins
 # RUN firewall-cmd --permanent --zone=public --add-port=8080/tcp
 # RUN firewall-cmd --reload
-# CMD ["/usr/sbin/init"]
 
 EXPOSE 8080
 
