@@ -22,27 +22,27 @@ MySecondTest
 MyThirdTest
     Log   i am inside third test  
     
-# FirstSeleniumTest
-    # Open Browser    https://google.com    chrome
-    # Set Browser Implicit Wait    5
-    # Input Text    name=q    Automation step by step
-    # Press Keys    name=q    ENTER
-    # # Click Button  name=btnK
-    # Sleep    2    
-    # Close Browser
-    # Log    Test Completed
+FirstSeleniumTest
+    Open Browser    https://google.com    chrome
+    Set Browser Implicit Wait    5
+    Input Text    name=q    Automation step by step
+    Press Keys    name=q    ENTER
+    # Click Button  name=btnK
+    Sleep    2    
+    Close Browser
+    Log    Test Completed
 
-# SampleLoginTest
-    # [Documentation]    This is a sample login test
-    # Open Browser       ${URL}    chrome
-    # Set Browser Implicit Wait    5
-    # LoginKW
-    # Sleep    2
-    # Click Element      id=welcome
-    # Click Element      link=Logout
-    # Close Browser
-    # Log                Test competed
-    # Log                This test was executed by %{username} on %{os}
+SampleLoginTest
+    [Documentation]    This is a sample login test
+    Open Browser       ${URL}    chrome
+    Set Browser Implicit Wait    5
+    LoginKW
+    Sleep    2
+    Click Element      id=welcome
+    Click Element      link=Logout
+    Close Browser
+    Log                Test competed
+    Log                This test was executed by %{username} on %{os}
     
 *** Variables ***
 ${URL}    https://opensource-demo.orangehrmlive.com/
