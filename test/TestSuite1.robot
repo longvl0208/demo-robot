@@ -40,7 +40,7 @@ SampleLoginTest
     Sleep    2
     Click Element      id=welcome
     Click Element      link=Logout
-    Close Browser
+    # Close Browser
     Log                Test competed
     Log                This test was executed by %{username} on %{os}
     
