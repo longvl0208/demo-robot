@@ -9,18 +9,18 @@ Test Teardown    Log    I am inside Test Teardown
 Default Tags    sanity
 
 *** Test Cases ***
-MyFirstTest
-    [Tags]    smoke
-    Log    Hello World...    
+# MyFirstTest
+    # [Tags]    smoke
+    # Log    Hello World...    
     
-MySecondTest
-    [Tags]    example
-    Log    I am inside second test 
-    Set Tags    regresion1
-    Remove Tags    regresion1
+# MySecondTest
+    # [Tags]    example
+    # Log    I am inside second test 
+    # Set Tags    regresion1
+    # Remove Tags    regresion1
     
-MyThirdTest
-    Log   i am inside third test  
+# MyThirdTest
+    # Log   i am inside third test  
     
 FirstSeleniumTest
     Open Browser    https://google.com    chrome
