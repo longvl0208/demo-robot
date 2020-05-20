@@ -39,8 +39,8 @@ SampleLoginTest
     LoginKW
     Sleep    2
     Click Element      id=welcome
-    Click Element      link=Logout
-    Close Browser
+    # Click Element      link=Logout
+    # Close Browser
     Log                Test competed
     Log                This test was executed by %{username} on %{os}
     
